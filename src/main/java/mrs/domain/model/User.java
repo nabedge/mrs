@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "user")
+@Table(name = "usr") // "user" はPostgreSQLでは予約！
 @Data
 public class User implements java.io.Serializable {
 
